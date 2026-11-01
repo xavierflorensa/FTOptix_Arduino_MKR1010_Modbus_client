@@ -45,10 +45,10 @@ Project:
    Module: FTOptix.Modbus
    Version: 1.0
  Statistics:
-  TotalNodeCount: 234
-  Objects: 93
+  TotalNodeCount: 402
+  Objects: 116
   ObjectTypes: 1
-  Variables: 140
+  Variables: 285
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
