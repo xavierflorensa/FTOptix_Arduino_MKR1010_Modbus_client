@@ -1,0 +1,59 @@
+Project:
+ Name: FTOptix_Arduino_MKR1010_Modbus_client
+ GUID: 130337821aa1cc4076b2edaf1ccb9378
+ ProjectNamespaceIndex: 10
+ DisplayName: ''
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.8
+ CoreVersion: 5.0
+ EncryptionVersion: 1
+ EncryptionMode: Secrets
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CommunicationDriver'
+   Module: FTOptix.CommunicationDriver
+   Version: 4.0
+  3:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 6.1
+  4:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 22.0
+  5:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 2.0
+  6:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 11.0
+  7:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 3.0
+  8:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 3.3
+  9:
+   Uri: 'urn:FTOptix:Modbus'
+   Module: FTOptix.Modbus
+   Version: 1.0
+ Statistics:
+  TotalNodeCount: 234
+  Objects: 93
+  ObjectTypes: 1
+  Variables: 140
+  VariableTypes: 0
+  DataTypes: 0
+  Methods: 0
+  References: 18
+  ReferenceTypes: 0
+  Files: 28
+ Nodes:
+ - File: Nodes/FTOptix_Arduino_MKR1010_Modbus_client.yaml
