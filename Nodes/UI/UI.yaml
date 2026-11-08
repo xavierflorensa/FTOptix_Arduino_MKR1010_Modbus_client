@@ -1236,6 +1236,16 @@ Children:
       DataType: Size
       ModellingRule: Optional
       Value: 40.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 40.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 2.0
   - Name: Image1
     Type: Image
     Children:
@@ -1262,7 +1272,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 390.0
+      Value: 399.0
   - Name: Image2
     Type: Image
     Children:
@@ -1289,7 +1299,7 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 390.0
+      Value: 399.0
   - Name: Image3
     Type: Image
     Children:
@@ -1316,6 +1326,33 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 390.0
+      Value: 399.0
+  - Name: Image4
+    Type: Image
+    Children:
+    - Name: Path
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: "ns=10;%PROJECTDIR%/OptixEDge.jpg"
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 199.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 430.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 480.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 10.0
 - File: Screens/Screens.yaml
 - File: Keyboards/Keyboards.yaml
